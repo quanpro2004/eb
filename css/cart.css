@@ -1,0 +1,159 @@
+header {
+    position: relative;
+}
+
+.shopping-mall {
+    position: absolute;
+    bottom: 20px;
+    font-variant: small-caps;
+}
+
+.shopping-mall>h1 {
+    font-family: Impact;
+    font-size: 50px;
+    color: white;
+    letter-spacing: 0.3px;
+    text-shadow: 0 0 2px black;
+    padding-bottom: 0px;
+    border-bottom: 1px dotted gray;
+    margin: 0px;
+}
+
+.shopping-mall>h5 {
+    margin-top: 5px;
+    letter-spacing: 0.5px;
+}
+
+.poly-cart {
+    margin-top: 5px;
+}
+
+.poly-cart ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    font-variant: small-caps;
+}
+
+.poly-cart .panel-heading strong {
+    font-variant: small-caps;
+    font-size: larger;
+    text-shadow: 0 0 2px darkgray;
+}
+
+.poly-prod {
+    text-align: center;
+    padding: 5px;
+}
+
+.poly-prod .panel-body img {
+    height: 150px;
+    max-width: 95%;
+}
+
+.w-25 {
+    width: 67% !important;
+}
+
+
+.top{
+    display: block;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.top a{
+    float: left;
+    line-height: 40px;
+    font-size: 14px;
+    padding: 0 0 0 15px;
+    text-decoration: none;
+}
+
+.top a::before{
+    content: '<';
+    width: 0;
+    height: 0;
+}
+  
+.top div{
+    display: block;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: right;
+}
+.cart{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+.p-cart{
+    background-color: #fff;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .15);
+}
+.list-p li{
+    display: flex;
+    width: 100%;
+}
+.list-p{
+    border-bottom: 1px solid #f0f0f0;
+    padding: 10px;
+}
+.img{
+    width: 15%;
+    float: left;
+}
+.info{
+    width: 80%;
+}
+.list-p li .info strong{
+    float: right;
+    color: red;
+}
+.list-p li .info a{
+    float: left;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+.list-num{
+    width: 100px;
+    float: right;
+    position: relative;
+    top: 50px;
+    right: -84px;
+}
+.list-num input{
+    width: 100%;
+}
+
+.buy{
+    border-bottom: 1px solid #d8d8d8;
+    display: block;
+    padding: 10px 50px 10px 30px;
+    clear: both;
+    height: 60px;
+}
+.button{
+    background-color: #fe7600;
+    color: #fff;
+    padding: 6px 12px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+    float: left;
+    text-decoration: none;
+    font-weight: bold;
+}
+.buy .total{
+    float: right;
+}
+.buy div{
+    color: #333;
+    font-size: 14px;
+    line-height: 22px;
+
+}
+

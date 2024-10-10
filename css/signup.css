@@ -1,0 +1,43 @@
+section {
+    max-width: 1300px;
+    width: 100%;
+    min-width: 1200px;
+    margin: 55px auto 0;
+    position: relative;
+}
+.signup-form {
+    display: block;
+    width: 100%;
+    max-width: 640px;
+    margin: 20px auto;
+    background: #fff;
+    border: 1px solid #d8d8d8;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .15);
+    height: 630px;
+}
+#card-form{
+    max-width: 100%;
+}
+
+.log{
+    padding: 10px;
+    margin-top: 20px;
+    border-top: 1px solid #d8d8d8;
+    text-align: center;
+}
+.log .btn{
+    border-radius: 30px;
+}
+.form-log{
+    padding: 10px;
+}
+.form-foot{
+    text-align: center;
+}
+.forget li{
+    display: inline-block;
+    padding: 10px;
+}
+.forget li a{
+    text-decoration: none;
+}

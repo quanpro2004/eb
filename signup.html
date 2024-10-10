@@ -1,0 +1,55 @@
+<section>
+    <div class="signup-form">
+      <div style="text-align: center; border-bottom: 1px solid #f0f0f0; padding: 20px;">
+        <h2>ĐĂNG KÝ TÀI KHOẢN</h2>
+      </div>
+        <form class="form-log" name="frmBonus">
+          <div class="mb-3 mt-2">
+            <label for="exampleInputEmail1" class="form-label">Tên đăng nhập</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" 
+            ng-model="fullname" name="txtFullname" maxlenght="25" required>
+            <span ng-show="frmBonus.txtFullname.$invalid && frmBonus.txtFullname.$touched" style="color: red;">
+              Vui lòng nhập tên đăng nhập
+            </span>
+          </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email</label>
+              <input class="form-control" id="exampleInputEmail1"
+              ng-model="email" type="email" name="txtEmail" required>
+              <span ng-show="frmBonus.txtEmail.$invalid && frmBonus.txtEmail.$touched" style="color: red;">
+                Không đúng định dạng Email
+            </span>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Mật khẩu</label>
+              <input type="password" class="form-control" id="exampleInputPassword1"
+                     ng-model="password" name="txtPassword" minlength="10" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$">
+              <span ng-show="frmBonus.txtPassword.$error.pattern && frmBonus.txtPassword.$touched" style="color: red;">
+                  Mật khẩu phải có ít nhất 8 chữ số, 1 chữ hoa, 1 chữ thường, 1 kí tự đặc biệt
+              </span>
+          </div>
+          <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Xác nhận mật khẩu</label>
+              <input type="password" class="form-control" id="exampleInputPassword1"
+                     ng-model="confirm" name="txtConfirm" minlength="10" required password-match="{{password}}">
+              <span ng-show="frmBonus.txtConfirm.$error.passwordMatch && frmBonus.txtConfirm.$touched" style="color: red;">
+                  Mật khẩu xác nhận không trùng khớp
+              </span>
+          </div>          
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Tôi đã đọc và đồng ý các điều khoản sử dụng.
+            </label>
+            </div>
+            <div class="log">
+              <button type="submit" class="btn btn-primary">Đăng ký</button>
+            </div>
+          </form>
+          <div class="form-foot">
+            <ol class="forget">
+                Nếu đã có tài khoản, vui lòng<li><a href="#!login">Đăng nhập</a></li>tại đây.
+            </ol>
+          </div>
+    </div>
+</section>
+<hr>  

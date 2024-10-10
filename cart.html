@@ -1,0 +1,41 @@
+<div style="background: #f0f0f0">
+    <div class="container">
+        <section class="cart">
+            <div class="top">
+                <a href="#">
+                    Mua thêm sản phẩm khác
+                </a>
+                <div>Giỏ hàng của bạn</div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    Giỏ hàng của bạn
+                </div>
+                <table class="table table-bordered mb-0">
+                    <tr>
+                        <th></th>
+                        <th>TÊN HÀNG</th>
+                        <th>SỐ LƯỢNG</th>
+                        <th>ĐƠN GIÁ</th>
+                        <th>THÀNH TIỀN</th>
+                    </tr>
+                    <tr ng-repeat="item in cart">
+                        <td>
+                            <input type="checkbox" ng-model="item.buy">
+                        </td>
+                        <td>{{item.name}}</td>
+                        <td>
+                            {{item.quanlity}}
+                        </td>
+                        <td> {{item.price | currency}}</td>
+                        <td>{{item.price * item.quanlity | currency}}</td>
+                    </tr>
+                </table>
+                <div class="card-footer">
+                    TỔNG TIỀN: {{getAmount() | currency:'đ':0}}
+                </div>
+            </div>
+        </section>
+        <hr>
+    </div>
+</div>

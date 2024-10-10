@@ -1,0 +1,65 @@
+<section style="background-color: white;">
+    <ol class="menu-home" style="background-color: #f0f0f0; margin-bottom: 0;">
+        <li><a href="#!">Trang chủ</a></li>
+        <li><a href="#!list">Sản phẩm</a></li>
+    </ol>
+    <ul class="filter">
+        <li>
+            <h2>Máy Game</h2>
+        </li>
+        <li>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Máy Game
+                </button>
+                    <ul class="dropdown-menu">
+                        <a class="dropdown-item" >PS 5</a>
+                        <a class="dropdown-item" >PS 4</a>
+                        <a class="dropdown-item" >XBoX</a>
+                        <a class="dropdown-item" >Nintendo</a>
+                    </ul>
+              </div>
+        </li>
+        <li class="search">
+            <input type="text" class="form-control" placeholder="Nhập từ khóa để tìm kiếm"
+                ng-model-options="{debounce:1000}" ng-model="keyword">
+        </li>
+        <li class="fil">
+            <button class="btn btn-{{(order == 'price')?'':'outline-'}}primary" ng-click="order='price'">Tang</button>
+        </li>
+        <li class="fil"> 
+            <button class="btn btn-{{(order == '-price')?'':'outline-'}}primary" ng-click="order='-price'">Giam</button>
+        </li>
+        <li class="fil">
+            <button class="btn btn-{{(order == 'name')?'':'outline-'}}primary" ng-click="order='name'">A-Z</button>
+        </li>
+        <li class="fil">
+            <button class="btn btn-{{(order == '-name')?'':'outline-'}}primary" ng-click="order='-name'">Z-A</button>
+        </li>
+    </ul>
+    <div class="l_product">
+        <div class="card" style="width: 18rem;"
+            ng-repeat="sp in dsSP | searchProduct:keyword:['price','name'] | orderBy:order | limitTo: limit : start">
+            <img ng-src="{{sp.img}}" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">{{sp.name}}</h5>
+                <p class="card-text">{{sp.price | currency:'đ':0}}</p>
+                <a href="#!detail/{{sp.id}}" class="btn btn-primary">Xem chi tiết</a>
+                <button class="btn btn-primary" ng-click="addToCart(sp)">Thêm vào giỏ</button>
+            </div>
+        </div>
+    </div>
+    <nav aria-label="Page navigation example" style="display: flex; justify-content: center;">
+        <ul class="pagination">
+          <li class="page-item {{(page == trang)?'disabled':''}}" >
+            <button ng-click="changePage(page-1)" class="page-link" href="#">Previous</button ng-click="page=1">
+            </li>
+          <li class="page-item {{(page==trang)?'active':''}}" aria-current="page" ng-repeat="trang in pageList">
+            <button ng-click="changePage(trang)" class="page-link" href="#">{{trang}}</button ng-click="page=1">
+            </li>
+          <li class="page-item {{(page == totalPage)?'disabled':''}}">
+            <button ng-click="changePage(page+1)" class="page-link" href="#">Next</button>
+          </li>
+        </ul>
+      </nav>
+</section>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/poly.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="css/detail.css">
+    <link rel="stylesheet" href="css/list.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/signup.css">
+    <title>Document</title>
+</head>
+<body style="background: #f0f0f0;" ng-app="myapp">
+    <div class="container" ng-controller="myctrl">
+        <header class="row">
+            <div class="col-6 shopping-mall">
+                <h1>Online Shop Game</h1>
+            </div>
+            <div class="col-6 offset-8">
+                <img class="w-25" src="images/Game-Shop-Games-Store-App-Logo-Template-1.webp" height="200">
+            </div>
+        </header>
+        <nav class="row">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="#!"><i class="fas fa-home"></i> Trang
+                                    chủ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="#!list"><i class="fas fa-list"></i> Sản 
+                                    phẩm</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="#!contact"><i class="fas fa-phone-alt"></i> Liên
+                                    hệ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="#"><i class="fas fa-envelope"></i> Góp
+                                    ý</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#!chs"><i class="fas fa-mug-hot"></i> Chính sách</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <i class="fas fa-user"></i>
+                                    Tài khoản
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#!login">Đăng nhập</a></li>
+                                    <li><a class="dropdown-item" href="#">Quên mật khẩu</a></li>
+                                    <li><a class="dropdown-item" href="#!signup">Đăng ký</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Đăng xuất</a></li>
+                                    <li><a class="dropdown-item" href="#">Đổi mật khẩu</a></li>
+                                    <li><a class="dropdown-item" href="#">Cập nhật hồ sơ</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#!cart">Đơn hàng</a></li>
+                                    <li><a class="dropdown-item" href="#">Hàng đã mua</a></li>
+
+                                </ul>
+                            </li>
+
+                        </ul>
+                        <ul class="navbar-nav me-9  mb-4 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="#">Tiếng việt</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="#">English</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </nav>
+        <div>
+            <div ng-show='loading'
+            class="position-fixed top-0 bottom-0 start-0 end-0 text-bg-dark d-flex justify-content-center align-items-center z-3">
+            <i class="fa-solid fa-fan fa-spin fa-spin-reverse"></i>Đang tải trang...
+        </div>
+            <ng-view></ng-view>
+        </div>
+        
+        <div class="row" style="margin-top: 50px; width: 1500px;">
+            <article class="col-sm-4">
+                <div class="row">
+                    <ul style="text-decoration: none; list-style-type: none; float: left; position: relative;">
+                        <li>Hướng dẫn mua hàng Online</li>
+                        <li>Chính sách bảo hành</li>
+                        <li>Chính sách đổi trả</li>
+                        <li>Giao hàng & Thanh toán</li>
+                        <li>Chính sách bảo mật</li>
+                    </ul>
+                </div>
+            </article>
+            <article class="col-sm-4">
+                <ul style="text-decoration: none; list-style-type: none; float: left; position: relative;">
+                    <li>Giới thiệu công ty</li>
+                    <li>Tuyển dụng</li>
+                    <li>Gửi góp ý, khiếu nại</li>
+                    <li>Xem bản Mobile</li>
+                </ul>
+            </article>
+            <article class="col-sm-4">
+                <ul style="text-decoration: none; list-style-type: none; float: right; position: relative;">
+                    <li>Số điện thoại mua hàng online: 0903199997 | 0707.199.997</li>
+                    <li>Địa chỉ cửa hàng: 14 Hoa Sữa, Phường 7, Phú Nhuận, TPHCM</li>
+                    <li>Giấy CNĐKKD Số: 41P8017320, Q.Phú Nhuận, TP.HCM 18.05.2016</li>
+                </ul>
+            </article>
+        </div>
+        <footer class="row">
+            <div class="panel panel-default">
+                <div class="panel-heading text-center">
+                    <p>FPT Polytechnic &copy; 2017. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/8b747924c9.js" crossorigin="anonymous"></script>
+    <script src="js/angular.min.js"></script>
+    <script src="js/angular-route.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/scope.js"></script>
+</body>
+</html>

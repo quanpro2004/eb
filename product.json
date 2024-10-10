@@ -1,0 +1,194 @@
+[
+  {
+    "console": [
+      {
+        "id": 1,
+        "name": "Máy PS4 Pro Hack 1TB - Chơi Game Miễn Phí",
+        "price": 7180000,
+        "image": "images/g-Product/m-game4.webp"
+      },
+      {
+        "id": 2,
+        "name": "Máy Nintendo Switch Oled Mới - White set",
+        "price": 6800000,
+        "image": "images/g-Product/m-game1.webp"
+      },
+      {
+        "id": 3,
+        "name": "Máy PS5 Slim - Tặng 2 Game",
+        "price": 11980000,
+        "image": "images/g-Product/m-game3.webp"
+      },
+      {
+        "id": 4,
+        "name": "Máy Xbox - Series S",
+        "price": 6280000,
+        "image": "images/g-Product/m-game2.webp"
+      },
+      {
+        "id": 5,
+        "name": "Máy Xbox - Series S",
+        "price": 6280000,
+        "img": "images/list_product/game_Console/xboxS.webp"
+    },
+    {
+        "id": 6,
+        "name": "Máy PS4 Slim Hack - Chơi Game Miễn Phí",
+        "price": 5800000,
+        "img": "images/list_product/game_Console/ps4SlimHack.webp"
+    },
+    {
+        "id": 7,
+        "name": "Máy PS4 Pro Hack 1TB - Chơi Game Miễn Phí",
+        "price": 7180000,
+        "img": "images/list_product/game_Console/ps4ProHack.webp"
+    },
+    {
+        "id": 8,
+        "name": "Máy PS4 Slim 1TB 2021 Chính Hãng - New",
+        "price": 6800000,
+        "img": "images/list_product/game_Console/ps4Slim1TB.webp"
+    },
+    {
+        "id": 9,
+        "name": "Máy PS5 Slim - Tặng 2 Game",
+        "price": 11980000,
+        "img": "images/list_product/game_Console/ps5Slim.webp"
+    },
+    {
+        "id": 10,
+        "name": "Máy PS5 Slim Digital - Tặng 2 Game",
+        "price": 10800000,
+        "img": "images/list_product/game_Console/ps5SlimDigital.webp"
+    },
+    {
+        "id": 11,
+        "name": "Máy PS4 Hack 500GB - Chơi Game Miễn Phí",
+        "price": 4800000,
+        "img": "images/list_product/game_Console/ps4Hack500GB.webp"
+    },
+    {
+        "id": 12,
+        "name": "Máy PS5 Cũ - Mới 99%",
+        "price": 8800000,
+        "img": "images/list_product/game_Console/ps599.webp"
+    },
+    {
+        "id": 13,
+        "name": "Máy Steam Deck Oled - 512GB",
+        "price": 15800000,
+        "img": "images/list_product/game_Console/steamDeck.webp"
+    },
+    {
+        "id": 14,
+        "name": "Máy Nintendo Switch Oled Mới - White set",
+        "price": 6800000,
+        "img": "images/list_product/game_Console/nintendoWhite.webp"
+    },
+    {
+        "id": 15,
+        "name": "Máy Nintendo Switch Oled Mới - Neon Red/Neon Blue set",
+        "price": 6800000,
+        "img": "images/list_product/game_Console/nintendoRed.webp"
+    },
+    {
+        "id": 16,
+        "name": "Máy Xbox - Series X - 2ND",
+        "price": 7800000,
+        "img": "images/list_product/game_Console/xboxX.webp"
+    },
+    {
+        "id": 17,
+        "name": "Máy Xbox - Series X",
+        "price": 11800000,
+        "img": "images/list_product/game_Console/xboxSeriesX.webp"
+    },
+    {
+        "id": 18,
+        "name": "Máy PS5 Standard Edition - Chính Hãng Sony Việt Nam",
+        "price": 12800000,
+        "img": "images/list_product/game_Console/ps5Standard.webp"
+    },
+    {
+        "id": 19,
+        "name": "Máy Nintendo Switch Oled - 2ND",
+        "price": 6200000,
+        "img": "images/list_product/game_Console/nintendoWhite2ND.webp"
+    },
+    {
+        "id": 20,
+        "name": "Máy Nintendo Switch Cũ - Mod Chip",
+        "price": 4800000,
+        "img": "images/list_product/game_Console/nintendoSwitch.webp"
+    },
+    {
+        "id": 21,
+        "name": "Máy PS5 God of War Ragnarok Bundle - Chính Hãng",
+        "price": 15800000,
+        "img": "images/list_product/game_Console/ps5GoW.webp"
+    },
+    {
+        "id": 22,
+        "name": "Máy Nintendo Switch Lite - 2nd",
+        "price": 3380000,
+        "img": "images/list_product/game_Console/nintendoLite.webp"
+    }
+    ]
+  },
+  {
+    "card": [
+      {
+        "id": 23,
+        "name": "Thẻ iTunes 50$ (US)",
+        "price": 1300000,
+        "image": "images/g-Product/c-game1.webp"
+      },
+      {
+        "id": 24,
+        "name": "Roblox 10$ (800 Robux)",
+        "price": 280000,
+        "image": "images/g-Product/c-game2.webp"
+      },
+      {
+        "id": 25,
+        "name": "Đĩa Game PS4 Pes 2020",
+        "price": 480000,
+        "image": "images/g-Product/d-game1.webp"
+      },
+      {
+        "id": 26,
+        "name": "Máy Xbox - Series S",
+        "price": 6280000,
+        "image": "images/g-Product/m-game2.webp"
+      }
+    ]
+  },
+  {
+    "accessory": [
+      {
+        "id": 27,
+        "name": "Tay Cầm Xbox Series - 2ND",
+        "price": 880000,
+        "image": "images/ac-product/pk-game1.webp"
+      },
+      {
+        "id": 28,
+        "name": "Tay Cầm Không Dây Dualsense Edge Chính Hãng",
+        "price": 5380000,
+        "image": "images/ac-product/1-product.webp"
+      },
+      {
+        "id": 29,
+        "name": "Tay Cầm Không Dây Dualsense Edge Chính Hãng",
+        "price": 1780000,
+        "image": "images/ac-product/2-product.webp"
+      },
+      {
+        "id": 30,
+        "name": "Tay Cầm PS5 DualSense wireless controller - White",
+        "price": 1880000,
+        "image": "images/ac-product/3-product.webp"
+      }
+    ]
+  }
+]

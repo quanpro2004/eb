@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "name": "Máy Xbox - Series S",
+        "price": 6280000,
+        "img": "images/list_product/game_Console/xboxS.webp"
+    },
+    {
+        "id": 2,
+        "name": "Máy PS4 Slim Hack - Chơi Game Miễn Phí",
+        "price": 5800000,
+        "img": "images/list_product/game_Console/ps4SlimHack.webp"
+    },
+    {
+        "id": 3,
+        "name": "Máy PS4 Pro Hack 1TB - Chơi Game Miễn Phí",
+        "price": 7180000,
+        "img": "images/list_product/game_Console/ps4ProHack.webp"
+    },
+    {
+        "id": 4,
+        "name": "Máy PS4 Slim 1TB 2021 Chính Hãng - New",
+        "price": 6800000,
+        "img": "images/list_product/game_Console/ps4Slim1TB.webp"
+    },
+    {
+        "id": 5,
+        "name": "Máy PS5 Slim - Tặng 2 Game",
+        "price": 11980000,
+        "img": "images/list_product/game_Console/ps5Slim.webp"
+    },
+    {
+        "id": 6,
+        "name": "Máy PS5 Slim Digital - Tặng 2 Game",
+        "price": 10800000,
+        "img": "images/list_product/game_Console/ps5SlimDigital.webp"
+    },
+    {
+        "id": 7,
+        "name": "Máy PS4 Hack 500GB - Chơi Game Miễn Phí",
+        "price": 4800000,
+        "img": "images/list_product/game_Console/ps4Hack500GB.webp"
+    },
+    {
+        "id": 8,
+        "name": "Máy PS5 Cũ - Mới 99%",
+        "price": 8800000,
+        "img": "images/list_product/game_Console/ps599.webp"
+    },
+    {
+        "id": 9,
+        "name": "Máy Steam Deck Oled - 512GB",
+        "price": 15800000,
+        "img": "images/list_product/game_Console/steamDeck.webp"
+    },
+    {
+        "id": 10,
+        "name": "Máy Nintendo Switch Oled Mới - White set",
+        "price": 6800000,
+        "img": "images/list_product/game_Console/nintendoWhite.webp"
+    },
+    {
+        "id": 11,
+        "name": "Máy Nintendo Switch Oled Mới - Neon Red/Neon Blue set",
+        "price": 6800000,
+        "img": "images/list_product/game_Console/nintendoRed.webp"
+    },
+    {
+        "id": 12,
+        "name": "Máy Xbox - Series X - 2ND",
+        "price": 7800000,
+        "img": "images/list_product/game_Console/xboxX.webp"
+    },
+    {
+        "id": 13,
+        "name": "Máy Xbox - Series X",
+        "price": 11800000,
+        "img": "images/list_product/game_Console/xboxSeriesX.webp"
+    },
+    {
+        "id": 14,
+        "name": "Máy PS5 Standard Edition - Chính Hãng Sony Việt Nam",
+        "price": 12800000,
+        "img": "images/list_product/game_Console/ps5Standard.webp"
+    },
+    {
+        "id": 15,
+        "name": "Máy Nintendo Switch Oled - 2ND",
+        "price": 6200000,
+        "img": "images/list_product/game_Console/nintendoWhite2ND.webp"
+    },
+    {
+        "id": 16,
+        "name": "Máy Nintendo Switch Cũ - Mod Chip",
+        "price": 4800000,
+        "img": "images/list_product/game_Console/nintendoSwitch.webp"
+    },
+    {
+        "id": 17,
+        "name": "Máy PS5 God of War Ragnarok Bundle - Chính Hãng",
+        "price": 15800000,
+        "img": "images/list_product/game_Console/ps5GoW.webp"
+    },
+    {
+        "id": 18,
+        "name": "Máy Nintendo Switch Lite - 2nd",
+        "price": 3380000,
+        "img": "images/list_product/game_Console/nintendoLite.webp"
+    }
+]

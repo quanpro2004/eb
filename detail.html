@@ -1,0 +1,81 @@
+<div style="background: #ffffff">
+    <div class="container">
+        <ol class="menu" style="list-style: none">
+            <li><a href="#" style="text-decoration: none">Trang chủ</a></li>
+            <li><a href="#" style="text-decoration: none">Máy Game</a></li>
+            <li><a href="#" style="text-decoration: none">Máy PS4</a></li>
+        </ol>
+        <div class="p-detail">
+            <div class="p-name">
+                <h1>{{sp.name}}</h1>
+                <span>Mã SP: SP00{{sp.id}}</span>
+            </div>
+        </div>
+        <div class="row">
+            <article class="col-sm-8">
+                <!--Nội dung trang web-->
+                <div class="container-fluid mt-3">
+                    <div class="row">
+                        <img class="col-sm-6" ng-src="{{sp.img}}" />
+                        <div class="p-detail col-sm-6">
+                            <p style="border-bottom: 1px solid #888888; padding: 5px;">
+                                Đây là máy PS4 Pro ổ cứng 1TB đã được bẻ khóa để chơi miễn phí các game PS4, không cần
+                                mua thêm đĩa game, máy có thể chơi miễn phí được tất cả game PS4 mới và cũ.
+                            </p>
+                            <div class="p-price" style="font-size: 18px;">
+                                <div><span>Đơn giá:</span> <strong
+                                        style="color:red; font-size: 25px;">{{sp.price}}₫</strong></div>
+                                <div>Nhà cung cấp: Sony</div>
+                                <div>Trạng thái: <strong style="color: green;">Còn hàng</strong></div>
+                            </div>
+                            <div class="order">
+                                <div class="order-sl">
+                                    Số lượng: <input type="number" value="1" aria-label="Số lượng" size="4">
+                                    Mua ngay: <strong style="color: red;">{{sp.price}}đ</strong>
+                                </div>
+                                <div class="order-btn">
+                                    <button type="submit" class="d_btn"
+                                        style="background-color: orange; color: #f0f0f0; font-weight: bold;">ĐẶT MUA
+                                        NGAY</button>
+                                    <button type="submit" class="d_btn"
+                                        style="background-color: blue; color: #f0f0f0; font-weight: bold;">MUA TRẢ
+                                        GÓP</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <fieldset>
+                            <legend>Hàng liên quan</legend>
+                            <div class="d_img">
+                                <div class="img-wrapper">
+                                    <img src="images/Detail/p-lienquan.png" class="img-thumbnail" />
+                                </div>
+                                <div class="img-wrapper">
+                                    <img src="images/Detail/p-lienquan2.jpg" class="img-thumbnail" />
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>
+                </div>
+            </article>
+
+            <aside class="col-sm-4">
+                <ul class="ck">
+                    <li>Bảo hảnh: <strong>6 tháng</strong></li>
+                    <li>Trong hộp có: 1 máy Pro ổ cứng 1TB, 1 tay cầm, cáp hdmi, dây nguồn, dây sạc</li>
+                    <li>1 đổi 1 trong 7 ngày nếu lỗi do NSX</li>
+                    <li>Fanpage: @muagame.vn</li>
+                    <li>
+                        <!-- <i class="fa-light fa-phone" style="color: #74C0FC;"></i> -->
+                        Địa chỉ: 14 Hoa Sữa, Phường 7, Phú Nhuận, TPHCM <br>
+                        <small>Hotline: 0903.199.997 (09:00 - 20:00)</small>
+                    </li>
+                    <li>Giao hàng nhanh trong 30 phút tại TP.HCM</li>
+                    <li>Hoàn tiền 200% nếu phát hiện hàng giả</li>
+                </ul>
+            </aside>
+        </div>
+        <hr>
+    </div>
+</div>

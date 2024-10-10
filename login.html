@@ -1,0 +1,39 @@
+<section>
+    <div class="users-form">
+      <div style="text-align: center; border-bottom: 1px solid #f0f0f0; padding: 20px;">
+        <h1>ĐĂNG NHẬP</h1>
+      </div>
+        <form class="form-log" name="frmBonus">
+            <div class="mb-3 mt-2">
+              <label for="exampleInputEmail1" class="form-label">Tên đăng nhập</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" 
+              ng-model="fullname" name="txtFullname" maxlenght="25" required >
+              <span ng-show="frmBonus.txtFullname.$invalid" style="color: red;">
+                Vui lòng nhập tên đăng nhập
+              </span>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Mật khẩu</label>
+              <input type="password" class="form-control" id="exampleInputPassword1"
+              ng-model="password" name="txtPassword" minlenght="10" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$">
+              <span ng-show="frmBonus.txtPassword.$invalid" style="color: red;">
+                Mật khẩu phải có ít nhất 8 chữ số, 1 chữ hoa, 1 chữ thường, 1 kí tự đặc biệt
+              </span>
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Lưu đăng nhập</label>
+            </div>
+            <div class="log">
+              <button type="submit" class="btn btn-primary">Đăng nhập</button>
+            </div>
+          </form>
+          <div class="form-foot">
+            <ol class="forget">
+              <li><a href="#">Quên mật khẩu ?</a></li>|
+              <li><a href="#!signup">Đăng ký tài khoản mới</a></li>
+            </ol>
+          </div>
+    </div>
+</section>
+<hr>  
